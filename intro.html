@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"></meta>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" type="text/css" href="Semantic-UI-CSS-master/semantic.min.css">
+        <link rel="icon" type="image/png" href="src/dna.png">
+        <script
+            src="https://code.jquery.com/jquery-3.1.1.min.js"
+            integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+            crossorigin="anonymous"></script>
+        <script src="Semantic-UI-CSS-master/semantic.min.js"></script>
+    </head>
+    <body>
+        <br>
+        <h2 class="ui center aligned icon header">
+            <i class="circular users icon"></i>
+                2018 NCKU iGEM
+            <div class="sub header">Team Members</div>
+        </h2>
+        <br>
+
+        <div class="ui stackable grid">
+            <div class="four wide column">
+                <div id="list" class="ui vertical fluid tabular menu">
+                    <div id="list1" onclick="test('#list1')">
+                        <a class="item active">
+                            Instructor
+                        </a>
+                    </div>
+                    <div id="list2" onclick="test('#list2')">
+                        <a class="item">
+                            Adviser
+                        </a>
+                    </div>
+                    <div id="list3" onclick="test('#list3')">
+                        <a class="item">
+                            Wet
+                        </a>
+                    </div>
+                    <div id="list4" onclick="test('#list4')">
+                        <a class="item">
+                            Dry
+                        </a>
+                    </div>
+                    <div id="list5" onclick="test('#list5')">
+                        <a class="item">
+                            HP
+                        </a>
+                    </div>
+                    <div>
+                        <br>
+                        <a href="#" class="gototop"><i class="angle up icon"></i>
+                            Go To Top
+                        </a>
+                    </div>
+                  </div>
+            </div>
+            <div class="twelve wide stretched column">
+                <div class="ui segment">
+
+                    <div class="instructor">
+                        <h3 class="ui block header">
+                                Instructor
+                        </h3>
+                        <div class="ui very padded raised segment">
+                            <div class="ui stackable four column grid">
+                                <div class="column">
+                                    <div class="ui card raised">
+                                        <div class="image">
+                                            <img src="src/woman.png">
+                                        </div>
+                                        <div class="content">
+                                            <a class="header">I-Son, Ng</a>
+                                            <div class="meta">
+                                                <span class="date">Work in iGEM : Instructor</span>
+                                            </div>
+                                            <div class="description">
+                                                Chemical Engineering                                                </div>
+                                        </div>
+                                        <div class="extra content">
+                                            <a>
+                                                <i class="birthday cake icon"></i>
+                                                    xx/xx
+                                            </a>
+                                        </div>
+                                    </div>
+                                 </div>
+                                 <div class="column">
+                                    <div class="ui card raised">
+                                        <div class="image">
+                                            <img src="src/boy.png">
+                                        </div>
+                                        <div class="content">
+                                            <a class="header">I-Hsiu, Huang</a>
+                                            <div class="meta">
+                                                <span class="date">Work in iGEM : Instructor</span>
+                                            </div>
+                                            <div class="description">
+                                                Medicine
+                                            </div>
+                                        </div>
+                                        <div class="extra content">
+                                            <a>
+                                               <i class="birthday cake icon"></i>
+                                                    xx/xx
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>   
+                    <br>
+                    <div class="adviser">
+                        <h3 class="ui block header">
+                            Adviser
+                        </h3>
+                        <div class="ui very padded raised segment">
+                            <div class="ui stackable four column grid">
+                                <div class="column">
+                                    <div class="ui card raised">
+                                        <div class="image">
+                                            <img src="src/woman.png">
+                                        </div>
+                                        <div class="content">
+                                            <a class="header">I-Yu, Chen</a>
+                                            <div class="meta">
+                                                <span class="date">Work in iGEM : Dry Adviser</span>
+                                            </div>
+                                            <div class="description">
+                                                Computer Science and Information Engineering
+                                            </div>
+                                        </div>
+                                        <div class="extra content">
+                                            <a>
+                                                <i class="birthday cake icon"></i>
+                                                    06/26
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="column">
+                                    <div class="ui card raised">
+                                        <div class="image">
+                                            <img src="src/boy.png">
+                                        </div>
+                                        <div class="content">
+                                            <a class="header">Wei-Xiang, Fu</a>
+                                            <div class="meta">
+                                                <span class="date">Work in iGEM : Dry Adviser</span>
+                                            </div>
+                                            <div class="description">
+                                                Mechanical Engineering
+                                            </div>
+                                        </div>
+                                        <div class="extra content">
+                                            <a>
+                                                <i class="birthday cake icon"></i>
+                                                    01/29
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="column">
+                                    <div class="ui card raised">
+                                        <div class="image">
+                                            <img src="src/boy.png">
+                                        </div>
+                                        <div class="content">
+                                            <a class="header">Shih-I, Tan</a>
+                                            <div class="meta">
+                                                <span class="date">Work in iGEM : Wet Adviser</span>
+                                            </div>
+                                            <div class="description">
+                                                Chemical Engineering
+                                            </div>
+                                        </div>
+                                        <div class="extra content">
+                                            <a>
+                                                <i class="birthday cake icon"></i>
+                                                    xx/xx
+                                            </a>
+                                        </div>
+                                    </div>         
+                                </div>                                                               
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="wet">
+                        <h3 class="ui block header">
+                            Wet
+                        </h3>
+                        <div class="ui very padded raised segment">
+                            <div class="ui stackable four column grid">
+                                <div class="column">
+                                    <div class="ui card raised">
+                                        <div class="image">
+                                            <img src="src/boy.png">
+                                        </div>
+                                        <div class="content">
+                                            <a class="header">Chen-Wei, Chen</a>
+                                            <div class="meta">
+                                                <span class="date">Work in iGEM : Wet</span>
+                                            </div>
+                                            <div class="description">
+                                                Medicine
+                                            </div>
+                                        </div>
+                                        <div class="extra content">
+                                            <a>
+                                                <i class="birthday cake icon"></i>
+                                                    09/09
+                                            </a>
+                                        </div>
+                                    </div>                                                                          
+                                </div>
+                                <div class="column">
+                                    <div class="ui card raised">
+                                        <div class="image">
+                                            <img src="src/woman.png">
+                                        </div>
+                                        <div class="content">
+                                            <a class="header">Li-Yun, Yuan</a>
+                                            <div class="meta">
+                                                <span class="date">Work in iGEM : Wet</span>
+                                            </div>
+                                            <div class="description">
+                                                Physical Therapy
+                                            </div>
+                                        </div>
+                                        <div class="extra content">
+                                            <a>
+                                                <i class="birthday cake icon"></i>
+                                                    10/22
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="column">
+                                    <div class="ui card raised">
+                                        <div class="image">
+                                            <img src="src/woman.png">
+                                        </div>
+                                        <div class="content">
+                                            <a class="header">Chee-Yun, Long</a>
+                                            <div class="meta">
+                                                <span class="date">Work in iGEM : Wet</span>
+                                            </div>
+                                            <div class="description">
+                                                Chemical Engineering
+                                            </div>
+                                        </div>
+                                        <div class="extra content">
+                                            <a>
+                                                <i class="birthday cake icon"></i>
+                                                    11/11
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="column">
+                                    <div class="ui card raised">
+                                        <div class="image">
+                                            <img src="src/woman.png">
+                                        </div>
+                                        <div class="content">
+                                            <a class="header">Hui-Yee, Ng</a>
+                                            <div class="meta">
+                                                <span class="date">Work in iGEM : Wet</span>
+                                            </div>
+                                            <div class="description">
+                                                Life Sciences
+                                            </div>
+                                        </div>
+                                        <div class="extra content">
+                                            <a>
+                                                <i class="birthday cake icon"></i>
+                                                    04/08
+                                            </a>
+                                        </div>        
+                                    </div>       
+                                </div>
+                                <div class="column">
+                                    <div class="ui card raised">
+                                        <div class="image">
+                                            <img src="src/boy.png">
+                                        </div>
+                                        <div class="content">
+                                            <a class="header">Ting-So, Liu</a>
+                                            <div class="meta">
+                                                <span class="date">Work in iGEM : Wet</span>
+                                            </div>
+                                            <div class="description">
+                                                Biotechnology and Bioindustry Sciences
+                                            </div>
+                                        </div>
+                                        <div class="extra content">
+                                            <a>
+                                                <i class="birthday cake icon"></i>
+                                                    11/28
+                                            </a>
+                                        </div>                
+                                    </div>       
+                                </div>
+                                <div class="column">
+                                    <div class="ui card raised">
+                                        <div class="image">
+                                            <img src="src/boy.png">
+                                        </div>
+                                        <div class="content">
+                                            <a class="header">Zhen-yee, Wu</a>
+                                            <div class="meta">
+                                                <span class="date">Work in iGEM : Wet</span>
+                                            </div>
+                                            <div class="description">
+                                                Biotechnology and Bioindustry Sciences
+                                            </div>
+                                        </div>
+                                        <div class="extra content">
+                                            <a>
+                                                <i class="birthday cake icon"></i>
+                                                    05/17
+                                            </a>
+                                        </div>                
+                                    </div>       
+                                </div>
+                                <div class="column">
+                                    <div class="ui card raised">
+                                        <div class="image">
+                                            <img src="src/boy.png">
+                                        </div>
+                                        <div class="content">
+                                            <a class="header">Patrick Chong Jun Theng</a>
+                                            <div class="meta">
+                                                <span class="date">Work in iGEM : Wet</span>
+                                            </div>
+                                            <div class="description">
+                                                Biotechnology and Bioindustry Sciences
+                                            </div>
+                                        </div>
+                                        <div class="extra content">
+                                            <a>
+                                                <i class="birthday cake icon"></i>
+                                                    09/14
+                                            </a>
+                                        </div>                
+                                    </div>       
+                                </div>                                        
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="dry">
+                        <h3 class="ui block header">
+                            Dry
+                        </h3>
+                        <div class="ui very padded raised segment">
+                            <div class="ui stackable four column grid">
+                                <div class="column">
+                                    <div class="ui card raised">
+                                        <div class="image">
+                                            <img src="src/woman.png">
+                                        </div>
+                                        <div class="content">
+                                            <a class="header">Zhen-Hui, Hoe</a>
+                                            <div class="meta">
+                                                <span class="date">Work in iGEM : Dry</span>
+                                            </div>
+                                            <div class="description">
+                                                Mechanical Engineering
+                                            </div>
+                                        </div>
+                                        <div class="extra content">
+                                            <a>
+                                                <i class="birthday cake icon"></i>
+                                                    12/02
+                                            </a>
+                                        </div>
+                                    </div>                                  
+                                </div>
+                                <div class="column">
+                                    <div class="ui card raised">
+                                        <div class="image">
+                                            <img src="src/woman.png">
+                                        </div>
+                                        <div class="content">
+                                            <a class="header">I Chu, Hung</a>
+                                            <div class="meta">
+                                                <span class="date">Work in iGEM : Dry</span>
+                                            </div>
+                                            <div class="description">
+                                                Computer Science and Information Engineering
+                                            </div>
+                                        </div>
+                                        <div class="extra content">
+                                            <a>
+                                                <i class="birthday cake icon"></i>
+                                                    01/29
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="column">
+                                    <div class="ui card raised">
+                                        <div class="image">
+                                            <img src="src/woman.png">
+                                        </div>
+                                        <div class="content">
+                                            <a class="header">Pin-Hsuan, Huang</a>
+                                            <div class="meta">
+                                                <span class="date">Work in iGEM : Dry</span>
+                                            </div>
+                                            <div class="description">
+                                                Electrical Engineering
+                                            </div>
+                                        </div>
+                                        <div class="extra content">
+                                            <a>
+                                                <i class="birthday cake icon"></i>
+                                                    01/06
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="column">
+                                    <div class="ui card raised">
+                                        <div class="image">
+                                            <img src="src/woman.png">
+                                        </div>
+                                        <div class="content">
+                                            <a class="header">lee-Yuan, Chen</a>
+                                            <div class="meta">
+                                                <span class="date">Work in iGEM : Dry</span>
+                                            </div>
+                                            <div class="description">
+                                                Energy
+                                            </div>
+                                        </div>
+                                        <div class="extra content">
+                                            <a>
+                                                <i class="birthday cake icon"></i>
+                                                    08/31
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="column">
+                                    <div class="ui card raised">
+                                        <div class="image">
+                                            <img src="src/boy.png">
+                                        </div>
+                                        <div class="content">
+                                            <a class="header">Shih-Wei, Liu</a>
+                                            <div class="meta">
+                                                <span class="date">Work in iGEM : Dry</span>
+                                            </div>
+                                            <div class="description">
+                                                Materials Science and Engineering
+                                            </div>
+                                        </div>
+                                        <div class="extra content">
+                                            <a>
+                                                <i class="birthday cake icon"></i>
+                                                    11/07
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>                                      
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="hp">
+                        <h3 class="ui block header">
+                            Hp
+                        </h3>
+                        <div class="ui very padded raised segment">
+                            <div class="ui stackable four column grid">
+                                <div class="column">
+                                    <div class="ui card raised">
+                                        <div class="image">
+                                            <img src="src/woman.png">
+                                        </div>
+                                        <div class="content">
+                                            <a class="header">Chia-Jung, Wang</a>
+                                            <div class="meta">
+                                                <span class="date">Work in iGEM : Hp</span>
+                                            </div>
+                                            <div class="description">
+                                                Economics
+                                            </div>
+                                        </div>
+                                        <div class="extra content">
+                                            <a>
+                                                <i class="birthday cake icon"></i>
+                                                    xx/xx
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>                                   
+                            </div>
+                        </div>      
+                    </div>
+
+                </div>
+            </div>
+        </div>    
+    </body>
+    <script type="text/javascript" src="intro.js"></script>
+</html>
